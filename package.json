@@ -1,0 +1,13 @@
+{
+  "name": "tahquamenon-falls-live",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Live Tahquamenon Falls park intelligence tool",
+  "scripts": {
+    "check": "node --check app.js && node --check data/places.js && node --check api/live.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
